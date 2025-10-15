@@ -1,0 +1,51 @@
+set_route:
+  name: Set route
+  fields:
+    output:
+      required: true
+      selector: {number: {min: 1, max: 8, mode: box}}
+    input:
+      required: true
+      selector: {number: {min: 1, max: 8, mode: box}}
+output_on:
+  name: Output on
+  fields:
+    output:
+      required: true
+      selector: {number: {min: 1, max: 8, mode: box}}
+output_off:
+  name: Output off
+  fields:
+    output:
+      required: true
+      selector: {number: {min: 1, max: 8, mode: box}}
+next_input:
+  name: Next input
+  fields:
+    output:
+      required: true
+      selector: {number: {min: 1, max: 8, mode: box}}
+prev_input:
+  name: Previous input
+  fields:
+    output:
+      required: true
+      selector: {number: {min: 1, max: 8, mode: box}}
+system_power:
+  name: System power
+  fields:
+    state:
+      required: true
+      selector: {boolean: {}}
+send_raw:
+  name: Send raw
+  fields:
+    data:
+      required: true
+      selector: {text: {}}
+factory_reset:
+  name: Factory reset
+refresh:
+  name: Refresh status
+query_info:
+  name: Query version and IP

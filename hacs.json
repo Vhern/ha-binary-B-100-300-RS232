@@ -1,0 +1,8 @@
+{
+  "name": "Binary B-100/300 RS232",
+  "content_in_root": false,
+  "domains": ["binary_b_100_300"],
+  "homeassistant": "2023.0.0",
+  "iot_class": "local_polling",
+  "render_readme": true
+}

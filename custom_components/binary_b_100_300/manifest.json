@@ -1,0 +1,9 @@
+{
+  "domain": "binary_matrix",
+  "name": "Binary HDMI Matrix (RS232)",
+  "version": "0.2.5",
+  "requirements": ["pyserial>=3.5"],
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "local_polling"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Binary HDMI Matrix",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect RS232",
+        "description": "Select the serial device and options."
+      }
+    }
+  }
+}
