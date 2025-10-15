@@ -1,7 +1,7 @@
 {
   "domain": "binary_b_100_300",
   "name": "Binary HDMI Matrix (RS232)",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "requirements": ["pyserial>=3.5"],
   "codeowners": ["@Vhern"],
   "config_flow": true,
