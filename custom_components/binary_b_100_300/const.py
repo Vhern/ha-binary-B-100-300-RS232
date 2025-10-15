@@ -1,4 +1,4 @@
-DOMAIN = "binary_matrix"
+DOMAIN = "binary_b_100_300"
 
 CONF_PORT = "port"
 CONF_BAUD = "baud"

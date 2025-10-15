@@ -1,9 +1,11 @@
 {
   "domain": "binary_b_100_300",
   "name": "Binary HDMI Matrix (RS232)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "requirements": ["pyserial>=3.5"],
-  "codeowners": [],
+  "codeowners": ["@Vhern"],
   "config_flow": true,
-  "iot_class": "local_polling"
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/Vhern/ha-binary-B-100-300-RS232/issues",
+  "documentation": "https://github.com/Vhern/ha-binary-B-100-300-RS232"
 }
